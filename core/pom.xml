@@ -17,6 +17,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${spring.version}</version>
+                 
         </dependency>
 
         <!-- Testing -->
@@ -33,11 +34,13 @@
             <version>${spring.version}</version>
             <scope>test</scope>
         </dependency>
-             <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.2</version>
-</plugin>
+             
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.2</version>
+        </plugin>
+             
         <!-- End Testing -->
     </dependencies>
 </project>
